@@ -30,7 +30,7 @@ const Home = () => {
 	return (
 		<Formik
 			onSubmit={({ email, password }) => onSubmitHandler(email, password)}
-			initialValues={{ email: 'hello@chewhx.com', password: '123456' }}
+			initialValues={{ email: '', password: '' }}
 			enableReinitialize
 		>
 			{({ submitForm }) => (

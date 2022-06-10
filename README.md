@@ -5,16 +5,26 @@
 1. Clone the repository
 
 ```bash
-git clone @chewhx/coding-challenge-for-web-engineers
+git clone https://github.com/chewhx/coding-challenge-for-web-engineers.git
 ```
 
-2. Install dependencies
+2. Change to project directory
+
+```bash
+cd coding-challenge-for-web-engineers/
+```
+
+3.  Install dependencies
 
 ```bash
 npm install
 ```
 
-3. Create `.env` file at root directory. Insert the secrets given to you.
+4. Create `.env` file at root directory. Insert the secrets given to you.
+
+```bash
+touch .env
+```
 
 ```plaintext
 # MONGO
@@ -23,13 +33,13 @@ REACT_APP_REALM_MONGO_CLIENT=
 REACT_APP_REALM_MONGO_DATABASE=
 ```
 
-4. Run the application
+5. Run the application
 
 ```bash
 npm run start
 ```
 
-4. Login and access dashboard with the following demo credentials given to you.
+6. Login and access dashboard with the following demo credentials given to you.
 
 ---
 
